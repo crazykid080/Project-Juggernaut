@@ -1,5 +1,6 @@
 Detection
 -OS
+~In progress
 -Files
 -Process permissions
 Mapping:

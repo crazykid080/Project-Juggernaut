@@ -8,6 +8,14 @@ I AM NOT RESPONSIBLE FOR ANY DAMAGE CAUSED BY THIS.
 #include "Payload.h"
 using namespace std;
 int main(){
+#if defined(_WIN32)
+	cout << "Windows" << endl;
+#elif defined(__linux__)
+	cout << "Linux" << endl;
+#elif defined(__APPLE__)
+	cout << "Apple" << endl;
+#endif
+
 	cout << "Dropping payload of: " << dropPayload() << endl;
 }
 
