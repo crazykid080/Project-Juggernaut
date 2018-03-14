@@ -4,19 +4,22 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../Files.cpp \
+../FilesWin.cpp \
 ../Main.cpp \
-../Payload.cpp 
+../Payload.cpp \
+../WindowsAttack.cpp 
 
 OBJS += \
-./Files.o \
+./FilesWin.o \
 ./Main.o \
-./Payload.o 
+./Payload.o \
+./WindowsAttack.o 
 
 CPP_DEPS += \
-./Files.d \
+./FilesWin.d \
 ./Main.d \
-./Payload.d 
+./Payload.d \
+./WindowsAttack.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
