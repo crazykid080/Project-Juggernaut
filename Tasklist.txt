@@ -1,0 +1,10 @@
+Detection
+-OS
+-Files
+-Process permissions
+Mapping:
+-Drives
+Stealth:
+-?
+Misc:
+-Process elevation
