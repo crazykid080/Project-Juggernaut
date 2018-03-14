@@ -5,15 +5,18 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
 ../Files.cpp \
-../Main.cpp 
+../Main.cpp \
+../Payload.cpp 
 
 OBJS += \
 ./Files.o \
-./Main.o 
+./Main.o \
+./Payload.o 
 
 CPP_DEPS += \
 ./Files.d \
-./Main.d 
+./Main.d \
+./Payload.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

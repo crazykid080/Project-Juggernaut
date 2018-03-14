@@ -8,3 +8,4 @@ Stealth:
 -?
 Misc:
 -Process elevation
+-Payload usage
