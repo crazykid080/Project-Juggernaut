@@ -19,6 +19,6 @@ int main(){
 	cout << "Apple" << endl;
 #endif
 
-	cout << "Dropping payload of: " << dropPayload() << endl;
+	cout << "Dropped payload." << endl;
 }
 
